@@ -1,22 +1,20 @@
 {
-  "name": "electron-quick-start",
+  "name": "testApp",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "An appx test app",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/davidv1992/testApp",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "appx demo"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^2.0.0"
+    "electron": "^2.0.0",
+    "electron-builder": "20.25.0"
   }
 }
