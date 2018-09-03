@@ -6,10 +6,10 @@ From command line, run:
 ```bash
 yarn
 .\node_modules\.bin\electron-builder -w appx
-makeappx unpack /p dist\test*.appx /d dist\unpack
-rm dist\unpack\Assets\*
-cp assets\* dist\unpack\Assets\*
-makeappx pack /p dist\test*.appx /d dist\unpack
+makeappx unpack /p dist\testApp-1.0.0.appx /d dist\unpack
+rm dist\unpack\assets\*
+cp assets\* dist\unpack\assets\
+makeappx pack /p dist\testApp-1.0.0.appx /d dist\unpack
 ```
 
 ## License
